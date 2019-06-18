@@ -1,0 +1,137 @@
+@mixin theme {
+  //.theme_color {
+  //  &_project-default {
+  //    //  Значения фонов блоков:
+  //    //  - дефолтный #FFFFFF;
+  //    $background-color-default: #FFFFFF;
+  //    //  - акцентный #0056B3;
+  //    $background-color-accent: #0056B3;
+  //    //  - бордерный #000000.
+  //    $background-color-border: #000000;
+  //    //
+  //    //  Значения состояний текста:
+  //    //  - основной: #000000;
+  //    $text-state-primary: #000000;
+  //    //  - второстепенный: rgba(0, 0, 0, 0.6);
+  //    $text-state-secondary: rgba(0, 0, 0, 0.6);
+  //    //  - дополнительный: rgba(0, 0, 0, 0.3),
+  //    $text-state-additional: rgba(0, 0, 0, 0.3);
+  //    //  - ссылочный: #0070f0.
+  //    $text-state-links: #0070f0;
+  //  }
+  //
+  //  &_project-brand {
+  //    //  Значения фонов блоков:
+  //    //  - дефолтный: #0070f0;
+  //    $background-color-default: #0070f0;
+  //    //  - акцентный: #FFFFFF;
+  //    $background-color-accent: #FFFFFF;
+  //    //  - бордерный: #FFFFFF.
+  //    $background-color-border: #FFFFFF;
+  //    //
+  //    //  Значения состояний текста:
+  //    //  - основной: #FFFFFF;
+  //    $text-state-primary: #FFFFFF;
+  //    //  - второстепенный: rgba(255, 255, 255, 0.6);
+  //    $text-state-secondary: rgba(255, 255, 255, 0.6);
+  //    //  - дополнительный: rgba(255, 255, 255, 0.3),
+  //    $text-state-additional: rgba(255, 255, 255, 0.3);
+  //    //  - ссылочный: #FFFFFF.
+  //    $text-state-links: #FFFFFF;
+  //  }
+  //
+  //  &_project-inverse {
+  //    //  Значения фонов блоков:
+  //    //  - дефолтный: #000000;
+  //    $background-color-default: #000000;
+  //    //  - акцентный: #FFFFFF;
+  //    $background-color-accent: #FFFFFF;
+  //    //  - бордерный: #FFFFFF.
+  //    $background-color-border: #FFFFFF;
+  //    //
+  //    //  Значения состояний текста:
+  //    //  - основной: #FFFFFF;
+  //    $text-state-primary: #FFFFFF;
+  //    //  - второстепенный: rgba(255, 255, 255, 0.6);
+  //    $text-state-secondary: rgba(255, 255, 255, 0.6);
+  //    //  - дополнительный: rgba(255, 255, 255, 0.3),
+  //    $text-state-additional: rgba(255, 255, 255, 0.3);
+  //    //  - ссылочный: #0070f0.
+  //    $text-state-links: #0070f0;
+  //  }
+  //
+  //  &_project-warning {
+  //    //  Значения фонов блоков:
+  //    //  - дефолтный: #FF9900;
+  //    $background-color-default: #FF9900;
+  //    //  - акцентный: #FFFFFF;
+  //    $background-color-accent: #FFFFFF;
+  //    //  - бордерный: #FFFFFF.
+  //    $background-color-border: #FFFFFF;
+  //    //
+  //    //  Значения состояний текста:
+  //    //  - основной: #FFFFFF;
+  //    $text-state-primary: #FFFFFF;
+  //    //  - второстепенный: rgba(255, 255, 255, 0.6);
+  //    $text-state-secondary: rgba(255, 255, 255, 0.6);
+  //    //  - дополнительный: rgba(255, 255, 255, 0.3),
+  //    $text-state-additional: rgba(255, 255, 255, 0.3);
+  //    //  - ссылочный: #FFF.
+  //    $text-state-links: #FFF;
+  //  }
+  //
+  //  &_megafon-brand {
+  //    //  Значения фонов блоков:
+  //    //  - дефолтный: #1FA55D;
+  //    $background-color-default: #1FA55D;
+  //    //  - акцентный: #FFFFFF;
+  //    $background-color-accent: #FFFFFF;
+  //    //  - бордерный: #FFFFFF.
+  //    $background-color-border: #FFFFFF;
+  //    //
+  //    //  Значения состояний текста:
+  //    //  - основной: #FFFFFF;
+  //    $text-state-primary: #FFFFFF;
+  //    //  - второстепенный: rgba(255, 255, 255, 0.6);
+  //    $text-state-secondary: rgba(255, 255, 255, 0.6);
+  //    //  - дополнительный: rgba(255, 255, 255, 0.3),
+  //    $text-state-additional: rgba(255, 255, 255, 0.3);
+  //    //  - ссылочный: #FFF.
+  //    $text-state-links: #FFF;
+  //  }
+  //}
+  //
+  //.theme_space {
+  //  &_default {
+  //    $space-xxxs: 2px;
+  //    $space-xxs: 4px;
+  //    $space-xs: 8px;
+  //    $space-s: 12px;
+  //    $space-m: 16px;
+  //    $space-l: 20px;
+  //    $space-xl: 24px;
+  //    $space-xxl: 32px;
+  //    $space-xxxl: 40px;
+  //    $space-xxxxl: 48px;
+  //  }
+  //}
+  //
+  //.theme_size {
+  //  &_default {
+  //    $line-height-s: 7px;
+  //    $line-height-m: 8px;
+  //    $line-height-l: 10px;
+  //    $line-height-xl: 11px;
+  //    $line-height-xxl: 13px;
+  //
+  //    $line-gap-s: 18px;
+  //    $line-gap-m: 21px;
+  //    $line-gap-l: 25px;
+  //    $line-gap-xl: 28px;
+  //    $line-gap-xxl: 34px;
+  //  }
+  //}
+}
+
+
+@include theme;

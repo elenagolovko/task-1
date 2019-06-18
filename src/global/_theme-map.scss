@@ -1,0 +1,48 @@
+$theme: (
+  'project-default': (
+    'background-color-default': #FFFFFF,
+    'background-color-accent': #0056B3,
+    'background-color-border': #000000,
+    'text-state-primary': #000000,
+    'text-state-secondary': rgba(0, 0, 0, 0.6),
+    'text-state-additional': rgba(0, 0, 0, 0.3),
+    'text-state-links': #0070f0
+  ),
+  'project-brand': (
+    'background-color-default': #0070f0,
+    'background-color-accent': #FFFFFF,
+    'background-color-border': #FFFFFF,
+    'text-state-primary': #FFFFFF,
+    'text-state-secondary': rgba(255, 255, 255, 0.6),
+    'text-state-additional': rgba(255, 255, 255, 0.3),
+    'text-state-links': #FFFFFF
+  ),
+  'project-inverse': (
+    'background-color-default': #000000,
+    'background-color-accent': #FFFFFF,
+    'background-color-border': #FFFFFF,
+    'text-state-primary': #FFFFFF,
+    'text-state-secondary': rgba(255, 255, 255, 0.6),
+    'text-state-additional': rgba(255, 255, 255, 0.3),
+    'text-state-links': #0070f0
+  ),
+  'project-warning': (
+    'background-color-default': #FF9900,
+    'background-color-accent': #FFFFFF,
+    'background-color-border': #FFFFFF,
+    'text-state-primary': #FFFFFF,
+    'text-state-secondary': rgba(255, 255, 255, 0.6),
+    'text-state-additional': rgba(255, 255, 255, 0.3),
+    'text-state-links': #FFF
+  ),
+  'project-inverse': (
+    'background-color-default': #1FA55D,
+    'background-color-accent': #FFFFFF,
+    'background-color-border': #FFFFFF,
+    'text-state-primary': #FFFFFF,
+    'text-state-secondary': rgba(255, 255, 255, 0.6),
+    'text-state-additional': rgba(255, 255, 255, 0.3),
+    'text-state-links': #FFF
+  ),
+
+)
